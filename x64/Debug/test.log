@@ -1,0 +1,38 @@
+﻿  exceptio.c
+c:\users\asus\desktop\test\include\exceptio.c(70): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  genlib.c
+c:\users\asus\desktop\test\include\genlib.c(123): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  graphics.c
+c:\users\asus\desktop\test\include\graphics.c(866): warning C4133: “=”: 从“LONG (__cdecl *)(HWND,UINT,WPARAM,LPARAM)”到“WNDPROC”的类型不兼容
+c:\users\asus\desktop\test\include\graphics.c(822): warning C4101: “consoleRect”: 未引用的局部变量
+c:\users\asus\desktop\test\include\graphics.c(1049): warning C4133: “=”: 从“LONG (__cdecl *)(HWND,UINT,WPARAM,LPARAM)”到“WNDPROC”的类型不兼容
+c:\users\asus\desktop\test\include\graphics.c(1161): warning C4244: “函数”: 从“WPARAM”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1168): warning C4244: “return”: 从“LRESULT”转换到“LONG”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1266): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1267): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1268): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1406): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1599): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1654): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\graphics.c(1943): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+  imgui.c
+c:\users\asus\desktop\test\include\imgui.c(401): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\imgui.c(402): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\imgui.c(466): warning C4311: “类型强制转换”: 从“char (*)[43]”到“long”的指针截断
+c:\users\asus\desktop\test\include\imgui.c(508): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  linkedlist.c
+  random.c
+  simpio.c
+  strlib.c
+c:\users\asus\desktop\test\include\strlib.c(50): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(51): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(63): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(76): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(100): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(108): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(168): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\strlib.c(182): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  test.c
+  正在生成代码...
+kernel32.lib(KERNEL32.dll) : error LNK2005: RaiseException 已经在 exceptio.obj 中定义
+C:\Users\ASUS\Desktop\test\x64\Debug\test.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

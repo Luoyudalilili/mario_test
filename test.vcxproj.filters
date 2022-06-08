@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{43391afc-1172-4dcd-a7c4-e234c3499847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libgraph">
+      <UniqueIdentifier>{8e5053a6-1b38-4259-982c-3b22068f65c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\module">
+      <UniqueIdentifier>{5fe1c157-c0e6-463f-a9bf-4500927e2aac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\imgui.c">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\exceptio.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="include\genlib.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="include\graphics.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="include\linkedlist.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="include\random.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="include\simpio.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="include\strlib.c">
+      <Filter>Header Files\libgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\startMenu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boolean.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exception.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\extgraph.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gcalloc.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\genlib.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphics.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\linkedlist.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\random.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\simpio.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strlib.h">
+      <Filter>Header Files\libgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="startMenu.h">
+      <Filter>Header Files\module</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  test.c
+c:\users\asus\desktop\test\include\test.c(43): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\test.c(44): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus\desktop\test\include\test.c(118): warning C4026: 使用形参表声明的函数
+c:\users\asus\desktop\test\include\test.c(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+c:\users\asus\desktop\test\include\test.c(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+c:\users\asus\desktop\test\include\test.c(69): warning C4715: “changeDirection”: 不是所有的控件路径都返回值
+  test.vcxproj -> C:\Users\ASUS\Desktop\test\Debug\test.exe
